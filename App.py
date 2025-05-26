@@ -15,6 +15,6 @@ class RuleBasedChatBot:
         for pattern in self.rules:
             if pattern in message:
                 return self.rules[pattern]
-        return "I'm sorry, I don't understand that. Can you please rephrase?"
+        return "I'm sorry, I don't understand that. Can you please rephrase?
     
    
